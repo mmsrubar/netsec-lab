@@ -2,7 +2,7 @@ $TTL 2d
 $ORIGIN 168.192.in-addr.arpa.
 
 @ IN SOA ns1.corp.sruby.com. hostmaster.corp.sruby.com. (
-                        2020112900 ; sn = serial number
+                        2020113000 ; sn = serial number
                         12h ; refresh
                         15m ; retry
                         3w ; expiry
@@ -14,6 +14,11 @@ $ORIGIN 168.192.in-addr.arpa.
   IN NS ns2.corp.sruby.com.
 
 ; PTR RR maps an IPv4 address to a host name
+
+; DNS servers
 1.100 IN PTR ns1.corp.sruby.com.
 2.100 IN PTR ns2.corp.sruby.com.
-3.100 IN PTR dhcp.corp.sruby.com.
+3.100 IN PTR dns-cache.corp.sruby.com.
+
+; DHCP servers
+10.100 IN PTR dhcp.corp.sruby.com.
