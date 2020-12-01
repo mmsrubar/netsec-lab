@@ -18,7 +18,8 @@ $ORIGIN 168.192.in-addr.arpa.
 ; DNS servers
 1.100 IN PTR ns1.corp.sruby.com.
 2.100 IN PTR ns2.corp.sruby.com.
-3.100 IN PTR dns-cache.corp.sruby.com.
+3.100 IN PTR ns3.corp.sruby.com.
+9.100 IN PTR dns-cache.corp.sruby.com.
 
 ; DHCP servers
 10.100 IN PTR dhcp.corp.sruby.com.

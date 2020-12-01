@@ -16,7 +16,7 @@ $ORIGIN corp.sruby.com.
 ; DNS servers
 ns1         IN A     192.168.100.1
 ns2         IN A     192.168.100.2
-dns-cache   IN A     192.168.100.3
+dns-cache   IN A     192.168.100.9
 
 ; DHCP servers
 dhcp  IN A     192.168.100.10
